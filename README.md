@@ -13,7 +13,7 @@ include './telegram.php';
 
 if (!empty($_POST['variable'])) {
   $content = $_POST['variable'];
-  SendMessage($content); // Call function to send data to tele bot :)
+  SendMessage($content); // Call the function to send data to tele bot :)
 }
 
 ?>
